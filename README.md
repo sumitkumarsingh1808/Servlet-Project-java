@@ -18,7 +18,7 @@ Connects to **MySQL databases** and enables users to manage Employee and Product
 
 ## 🧱 Project Structure
 
-<img width="679" height="398" alt="image" src="https://github.com/user-attachments/assets/17061877-5d4c-41a8-b22b-27c868bbe0d3" />
+<img width="760" height="460" alt="image" src="https://github.com/user-attachments/assets/c7921c93-9f23-48a3-add6-82a219eebce5" />
 
 ---
 
