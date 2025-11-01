@@ -19,24 +19,21 @@ It connects to **MySQL databases** and allows users to manage data through inter
 ## 🧱 Project Structure
 
 Servlet-Project-Java/
-│
 ├── src/
-│   ├── FetchEmployeeData.java       # Fetch all employees from Employee table
-│   ├── ProductCRUD.java             # Perform CRUD operations on Product table
-│
+│   ├── FetchEmployeeData.java   # Fetch all employees from Employee table
+│   └── ProductCRUD.java         # CRUD operations for Product table
 ├── lib/
-│   └── mysql-connector-j-9.5.0.jar  # MySQL JDBC driver
-│
-├── database.sql                     # Creates jdbc_project (Employee + Product)
-├── productDB.sql                    # Creates productDB for CRUD operations
-├── attendance.sql                   # (Optional) For student portal attendance
-├── README.md                        # Project details and setup guide
-│
-└── WebContent/                      # (For Servlets & JSP)
-    ├── index.html
-    ├── login.jsp
-    └── WEB-INF/
-        └── web.xml
+│   └── mysql-connector-j-9.5.0.jar   # MySQL JDBC driver
+├── database.sql                 # Creates jdbc_project (Employee + Product tables)
+├── productDB.sql                # Creates productDB for Product CRUD operations
+├── attendance.sql               # (Optional) For student portal attendance
+├── README.md                    # Project details and setup guide
+├── WebContent/                  # For Servlets & JSP
+│   ├── index.html
+│   ├── login.jsp
+│   └── WEB-INF/
+│       └── web.xml
+
 
 ## 🧰 Requirements
 
