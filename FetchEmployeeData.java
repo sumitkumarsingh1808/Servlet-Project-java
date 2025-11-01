@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class FetchEmployeeData {
     public static void main(String[] args) {
         // Database connection details
-        String url = "jdbc:mysql://localhost:3306/new_schema"; 
+        String url = "jdbc:mysql://localhost:3306/jdbc_project"; 
         String user = "root"; 
         String password = "sumit";  
 
@@ -49,4 +49,5 @@ public class FetchEmployeeData {
         }
     }
 }
+
 
