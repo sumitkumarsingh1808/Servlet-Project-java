@@ -7,9 +7,9 @@ import java.sql.SQLException;
 public class FetchEmployeeData {
     public static void main(String[] args) {
         // Database connection details
-        String url = "jdbc:mysql://localhost:3306/new_schema";  // ✅ Your DB name here
-        String user = "root";  // ✅ Your MySQL username
-        String password = "tiger";  // ✅ Replace with your MySQL password
+        String url = "jdbc:mysql://localhost:3306/new_schema"; 
+        String user = "root"; 
+        String password = "sumit";  
 
         try {
             // Step 1: Load JDBC Driver
@@ -49,3 +49,4 @@ public class FetchEmployeeData {
         }
     }
 }
+
