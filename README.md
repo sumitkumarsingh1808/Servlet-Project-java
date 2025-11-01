@@ -38,10 +38,6 @@ Servlet-Project-Java/
     └── WEB-INF/
         └── web.xml
 
-
-
----
-
 ## 🧰 Requirements
 
 Before running the project, ensure you have:
